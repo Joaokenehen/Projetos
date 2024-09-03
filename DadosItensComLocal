@@ -1,0 +1,29 @@
+create table itens (
+		id_item INT,
+		nome_item VARCHAR(20),
+		item_descricao VARCHAR(90),
+		item_quantidade INT,
+		item_local VARCHAR(20)
+		);
+
+
+	
+select * from itens;
+	
+	
+insert itens values (1, "Chave", "Uma chave dourada, talvez possa ser usada para abrir algum lugar", 1, "Casa"),
+					(2, "Machado", "Pode ser tanto uma arma como uma ferramenta", 1, "Casa"),
+					(3, "Manguira", "Uma ferramenta, geralmente usada para puxar combustivel", 1, "Posto de combustivel"),
+					(4, "Moeda", "Uma moeda, aproximadamente 1 dolar", 1, "Posto de combustivel"),
+					(5, "Pa", "Ferramenta, pose ser usada para cavar em algum lugar", 1, "Casa"),
+					(6, "Fios", "Fios, geralmente usados para ligar energia eletrica em algum local", 1, "Casa"),
+					(7, "Cartucho", "Municao para revolver", 1, "Casa"),
+					(8, "Cortador pequeno", "Ferramenta muito util para cortar arames", 1, "Casa"),
+					(9, "Analsegicos", "Pode ser usado para amenizar as dores de um ferimento", 1, "Posto de combustivel"),
+					(10, "Revolver", "Uma arma de fogo, faz muito barulho, porem posso usar em ultimo caso", 1, "Mercado");
+					(11, "Cerca", "Pode ser usado para reparar outra estrutura", 1, "Mercado"),
+					(12, "Cartucho 2", "Municao para revolver", 1, "Mercado"),
+					(13, "Cartucho 3", "Municao para revolver", 1, "Posto de combustivel");
+				
+
+				
