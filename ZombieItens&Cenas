@@ -1,0 +1,22 @@
+select * from itens
+
+select * from cenas
+
+insert into cenas
+values (12, "Quarto dentro do mercado", 5, " Você seguiu para o quarto e encontrou uma daquelas feras, um armário caiu encima das
+pernas dela, ela ainda pode me ocasionar algum dano se eu não for cauteloso, logo ao lado
+dela tem uma lanterna e uma mesa com uma chave, o que devo fazer?");
+
+
+insert into itens
+values  (1, "Chave Dourada", "Você destrancou a porta do quarto", "Não é possível usar aqui", 3, 10, "É uma chave de cor dourada, talvez posso usa-lá para abrir algum lugar", 1, "Não consigo usar aqui"),
+		(2, "Pá", "Você cavou um buraco", "Não é possível usar aqui", 2, 3, "É uma pá, posso usar para cavar", 1, "Não consigo usar aqui"),
+		(3, "Fios", "Você usou no gerador", "Não é possível usar aqui", 2, 3, "São fios", 1, "Não consigo usar aqui"),
+		(4, "Revolver", "Você atirou no zumbi", "Está sem munição", 9, 12, "É um revolver, faz muito barulho porém extremamente letal", 1, "Não consigo usar aqui"),
+		(5, "Cortado de metal", "Você cortou a cerca", "Não é possível usar aqui", 4, 7, "É um cortador de metal pequeno,  muito usado para cortar arames", 1, "Não consigo usar aqui"),
+		(6, "Cartucho", "Você recarregou o revolver", "Não é possível usar aqui", null, null, "Cartucho que podem ser usados para recarregar um revolver", 3, "Não consigo usar aqui"),
+		(7, "Chave Metalica", "Você destrancou a porta do porão", "Não é possível usar aqui", 12, 2, "Uma chave metalica, talvez posso usa-lá para abrir algo", 1, "Não é possível usar aqui");
+
+
+
+		
